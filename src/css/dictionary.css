@@ -1,5 +1,13 @@
 .dictionary {
-  text-align: center;
+  margin: 10px auto;
+  text-align: left;
+  padding: 30px;
+  max-width: 40rem;
 
   border-radius: 15px;
+  background-color: rgb(240, 232, 220);
+  border-radius: 15px;
+}
+.dictionary .form {
+  font-family: monospace;
 }
