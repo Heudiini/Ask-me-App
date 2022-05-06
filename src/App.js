@@ -1,14 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {" "}
-        Heudiinis Dictionary App made with React
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          {" "}
+          <h1>
+            My Dictionary App <img src={logo} className="App-logo" alt="logo" />
+          </h1>
+          <Dictionary />
+        </header>
+        <footer>© 2022 coded by Heudiini opensoure code in heudiini github</footer>
+      </div>
     </div>
   );
 }
