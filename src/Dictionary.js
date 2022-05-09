@@ -8,7 +8,7 @@ export default function Dictionary(props) {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    //  console.log(response.data[0]);
     setResults(response.data[0]);
   }
 
