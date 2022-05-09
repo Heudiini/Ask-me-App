@@ -13,7 +13,17 @@ function App() {
           </h1>
           <Dictionary />
         </header>
-        <footer>© 2022 coded by Heudiini opensoure code in heudiini github</footer>
+        <footer>
+          © 2022 coded by Heudiini.{" "}
+          <a
+            className="gitlink"
+            href="https://github.com/Heudiini/dictionary-app"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Opensource code.
+          </a>{" "}
+        </footer>
       </div>
     </div>
   );

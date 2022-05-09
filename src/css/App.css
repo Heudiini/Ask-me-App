@@ -11,7 +11,15 @@ h1 {
 footer {
   color: grey;
   font-size: small;
+}
+.gitlink {
+  color: grey;
+  font-size: small;
   margin-top: 100px;
+  text-decoration: none;
+}
+.gitlink:hover {
+  color: #f6c8c8;
 }
 
 .App-logo {
