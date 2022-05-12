@@ -1,0 +1,10 @@
+.synonyms .list {
+  font-size: 20px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.synTitle {
+  color: black;
+  font-size: x-large;
+}

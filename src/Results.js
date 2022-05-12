@@ -5,13 +5,15 @@ import "./css/Results.css";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div className="results">
-        <h2>{props.results.word}</h2>
-        {props.results.meanings.map(function (meanings, index) {
+      <div className="Results">
+        <section>
+          <h2>{props.results.word}</h2>
+        </section>
+        {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
-              <Meaning meanings={meanings} />
-            </div>
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
           );
         })}
       </div>
