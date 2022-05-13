@@ -4,21 +4,30 @@ import "./css/Meanings.css";
 
 export default function Meaning(props) {
   return (
-    <div className="meaning">
+    <div className=" meaning">
       <h3>{props.meaning.partOfSpeech}</h3>
-      Definition:
+
       {props.meaning.definitions.map(function (definition, index) {
         // console.log(props.meaning.synonyms);
         if (definition) {
           return (
             <div key={index}>
-              <div className="definition">{definition.definition}</div>
-              <span className="exampleP">Example:</span>{" "}
-              <q className="example">
+              <div>
+                Definition:
+                <br />
+                <strong className="definitionResp">{definition.definition}</strong>
+              </div>
+              <div>
+                Example:
+                <br />
+              </div>{" "}
+              <q className="exampleResp">
                 <em>{definition.example}</em>
               </q>
             </div>
           );
+        } else {
+          return null;
         }
       })}
       <Synonyms synonyms={props.meaning.synonyms} />
