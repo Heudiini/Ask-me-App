@@ -1,10 +1,10 @@
 .synonyms .list {
   font-size: 20px;
-  color: grey;
+  color: rgb(250, 248, 248);
   text-transform: capitalize;
 }
 
 .synTitle {
-  color: black;
+  color: rgb(245, 242, 242);
   font-size: x-large;
 }
