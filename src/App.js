@@ -11,7 +11,7 @@ function App() {
           <h1>
             My Dictionary App <img src={logo} className="App-logo" alt="logo" />
           </h1>
-          <Dictionary defaultKeyword="Hello" />
+          <Dictionary defaultKeyword="lunar" />
         </header>
         <footer>
           © 2022 coded by Heudiini.{" "}
