@@ -2,83 +2,19 @@
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-
+  background-color: #e8e6dd;
   color: #424242;
-  background: linear-gradient(to right, #f8f9fa 0%, #e9e7e7 100%);
 }
+body {
+  /*background-image: url("./giphy.gif");*/
+  background-size: cover;
+
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   padding: 20px 0 10px 0;
   font-size: 4rem;
   font-family: caveat;
-}
-
-footer {
-  color: rgb(90, 90, 90);
-  font-size: small;
-}
-.gitlink {
-  font-size: small;
-  color: rgb(90, 90, 90);
-  text-decoration: none;
-}
-.gitlink:hover {
-  color: rgb(159, 196, 245);
-}
-.App-logo {
-  width: 90px;
-  opacity: 60%;
-  padding: 0;
-  z-index: 1;
-
-  -webkit-animation: logo-spin infinite 20s linear;
-  -moz-animation: moz-spin infinite 20s linear;
-  -o-animation: o-spin infinite 20s linear;
-  animation: rotation infinite 20s linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes App-moz-spin {
-  from {
-    -moz-transform: rotate(0deg);
-  }
-  to {
-    -moz-transform: rotate(360deg);
-  }
-}
-@keyframes App-o-spin {
-  from {
-    -o-transform: rotate(0deg);
-  }
-  to {
-    -o-transform: rotate(360deg);
-  }
-}
-.App-link {
-  color: #61dafb;
 }

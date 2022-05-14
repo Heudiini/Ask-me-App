@@ -1,17 +1,17 @@
 .dictionary {
   margin: auto;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   color: rgb(102, 102, 102);
-  background-color: rgba(167, 169, 169, 0.292);
 
   border-radius: 15px;
 }
-.dictionary .form .input {
+.dictionary .input {
   font-family: monospace;
-  width: 70%;
-  padding: 3px;
+  width: 60%;
+  padding: 10px;
   border: 1px solid lightgray;
   border-radius: 5px;
   font-size: small;
@@ -20,9 +20,11 @@
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
 }
 section {
-  background-color: rgba(244, 247, 248, 0.5);
-  padding-top: 5px;
-
+  background-color: rgba(244, 247, 248, 0.993);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   border-radius: 10px;
-  margin: 5px;
+  margin: 25px 0 25px 0;
+  max-width: 550px;
 }

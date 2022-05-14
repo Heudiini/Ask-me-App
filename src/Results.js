@@ -11,12 +11,12 @@ export default function Results(props) {
 
         {props.results.phonetics.map(function (phonetics, index) {
           return (
-            <section className=" audiosec">
+            <div className=" audiosec">
               {" "}
               <div key={index}>
                 <Phonetic phonetic={phonetics} />
               </div>
-            </section>
+            </div>
           );
         })}
 

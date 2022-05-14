@@ -1,0 +1,74 @@
+footer {
+  padding-top: 8px;
+
+  margin: auto;
+  color: rgb(248, 242, 242);
+  font-size: small;
+  background-color: #424242;
+  width: 100%;
+  margin-top: 50px;
+}
+.gitlink {
+  text-align: left;
+  font-size: small;
+  color: rgb(248, 238, 238);
+  text-decoration: none;
+}
+.gitlink:hover {
+  color: rgb(159, 196, 245);
+}
+.App-logo {
+  width: 40px;
+  opacity: 60%;
+  padding: 0;
+  z-index: 1;
+
+  -webkit-animation: logo-spin infinite 20s linear;
+  -moz-animation: moz-spin infinite 20s linear;
+  -o-animation: o-spin infinite 20s linear;
+  animation: rotation infinite 20s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes App-moz-spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes App-o-spin {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
