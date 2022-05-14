@@ -1,13 +1,22 @@
 .dictionary {
-  margin: 10px auto;
-  text-align: left;
-  padding: 30px;
-  max-width: 40rem;
-  color: rgb(234, 232, 229);
-  border-radius: 15px;
-  background-color: rgb(116, 116, 117);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+
+  color: rgb(251, 246, 246);
+  background-color: rgba(167, 169, 169, 0.292);
+
   border-radius: 15px;
 }
-.dictionary .form {
+.dictionary .form .input {
   font-family: monospace;
+  font-size: small;
+  color: rgb(157, 155, 155);
+}
+section {
+  background-color: rgba(185, 234, 245, 0.5);
+  padding-top: 5px;
+
+  border-radius: 10px;
+  margin: 5px;
 }

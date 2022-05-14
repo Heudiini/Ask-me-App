@@ -5,23 +5,21 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className=" container">
         <header className="App-header">
           {" "}
-          <h1>
-            My Dictionary App <img src={logo} className="App-logo" alt="logo" />
-          </h1>
-          <Dictionary defaultKeyword="lunar" />
+          <h1>Ask me App</h1>
+          <Dictionary defaultKeyword="Peace" />
         </header>
         <footer>
-          © 2022 coded by Heudiini.{" "}
+          © 2022 coded by Heudiini. With <img src={logo} className="App-logo" alt="logo" />
           <a
             className="gitlink"
             href="https://github.com/Heudiini/dictionary-app"
             rel="noreferrer"
             target="_blank"
           >
-            Opensource code.
+            Opensource code in github Heudiini.
           </a>{" "}
         </footer>
       </div>

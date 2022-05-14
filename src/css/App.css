@@ -1,40 +1,41 @@
 .App {
   text-align: center;
-  padding: 20px;
+
   margin: 0 auto;
 
-  border-radius: 15px;
+  color: #61dafb;
+  background: linear-gradient(to right, #868f96 0%, #010304 100%);
 }
 h1 {
-  padding: 10px 0 10px 0;
+  padding: 20px 0 10px 0;
+  font-size: 4rem;
+  font-family: caveat;
 }
+
 footer {
-  color: grey;
+  color: rgb(250, 247, 247);
   font-size: small;
 }
 .gitlink {
-  color: grey;
+  color: rgb(175, 226, 253);
   font-size: small;
-  margin-top: 100px;
+
   text-decoration: none;
 }
 .gitlink:hover {
-  color: #f6c8c8;
+  color: black;
 }
-
 .App-logo {
-  height: 40px;
-  pointer-events: none;
+  width: 90px;
+  opacity: 60%;
+  padding: 0;
+  z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -44,4 +45,8 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-link {
+  color: #61dafb;
 }
