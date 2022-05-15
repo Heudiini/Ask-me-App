@@ -12,9 +12,7 @@ function App() {
           <div className="mainTitle">
             <h1>Ask me App</h1>
             <p className="detail">
-              <small>
-                <a href="https://heudiinis.netlify.app/">by Heudiini©</a>
-              </small>
+              <small> by Heudiini©</small>
             </p>
           </div>
           <div>
