@@ -23,11 +23,11 @@ form {
   text-align: center;
 }
 .live {
-  margin: auto;
+  margin: 0 auto;
   width: 10px;
   height: 10px;
   border: none;
-  border-radius: 51%;
+  border-radius: 50%;
   background-color: #1af016;
 
   animation: pulsate 1500ms infinite;

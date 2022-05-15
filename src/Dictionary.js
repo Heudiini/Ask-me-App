@@ -38,7 +38,7 @@ export default function Dictionary(props) {
       <div className="row dictionary">
         <form className="form" onSubmit={handleSubmit}>
           <p>
-            <button class="live"></button> Results searched for word:{" "}
+            <button className="live"></button> Results searched for word:{" "}
           </p>
           <input
             className="input"
