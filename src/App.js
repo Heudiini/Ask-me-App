@@ -1,6 +1,6 @@
 import "./css/App.css";
 import Dictionary from "./Dictionary";
-import winnie from "./winnie.gif";
+
 import Footer from "./Footer";
 
 function App() {
@@ -9,13 +9,17 @@ function App() {
       <div className=" container">
         <header className=" App-header">
           {" "}
-          <h1>Ask me App</h1>
-          <div>
-            {" "}
-            <Dictionary defaultKeyword="peace" />
+          <div className="mainTitle">
+            <h1>Ask me App</h1>
+            <p className="detail">
+              <small>
+                <a href="https://heudiinis.netlify.app/">by Heudiini©</a>
+              </small>
+            </p>
           </div>
           <div>
-            <img src={winnie} width="80%" alt="loading..." />
+            {" "}
+            <Dictionary defaultKeyword="paragraph" />
           </div>
         </header>
       </div>{" "}
