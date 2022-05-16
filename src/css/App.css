@@ -1,21 +1,17 @@
 .App {
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 
   color: #424242;
 }
 body {
   background-color: #e8e6dd;
 }
-a {
-  color: rgb(117, 116, 116);
-
-  text-decoration: none;
-}
 
 h1 {
   padding: 20px 0 0 0;
   font-size: 4rem;
   font-family: caveat;
+  line-height: 22px;
 }

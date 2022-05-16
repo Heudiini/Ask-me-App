@@ -5,10 +5,9 @@ import "./css/Footer.css";
 export default function Footer() {
   return (
     <footer className="row">
-      <p className="col ">
+      <p className="col sm-3 ">
         {" "}
-        © 2022
-        <img src={logo} className="App-logo" alt="logo" />
+        © 2022{" "}
         <a
           className=" link"
           href="https://github.com/Heudiini/dictionary-app"
@@ -18,18 +17,12 @@ export default function Footer() {
           github opensource code.
         </a>{" "}
       </p>
-      <p className="col ">
+      <p className="col sm-3">
+        <img src={logo} className="App-logo" alt="logo" />
+      </p>
+      <p className="col sm-3 ">
         <a className="link" href="https://giphy.com/gifs/winnie-the-pooh-126BrhLh4YgwkE">
           Gif from GIPHY
-        </a>
-      </p>
-      <p className="col">
-        <a
-          className="link"
-          href="https://www.clipartmax.com/middle/m2i8N4G6i8i8A0N4_related-winnie-the-pooh-reading-clipart-winnie-pooh-con-un-libro/"
-          target="_blank"
-        >
-          Related Pooh{" "}
         </a>
       </p>
     </footer>

@@ -1,19 +1,16 @@
 .dictionary {
   margin: auto;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  max-width: 700px;
   color: rgb(102, 102, 102);
-
-  border-radius: 15px;
 }
+
 form {
   background-color: rgb(67, 66, 66);
   color: white;
   padding: 15px;
-  margin: auto;
-  width: 80%;
+  margin: 0 auto;
+  width: 60%;
   border: 1px solid lightgray;
   border-radius: 15px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
@@ -22,12 +19,16 @@ form {
   font-family: monospace;
   text-align: center;
 }
+.btnDiv {
+  height: 30px;
+}
 .live {
   width: 10px;
   height: 10px;
   border: none;
-  border-radius: 5px;
-  background-color: #1af016;
+  border-radius: 50%;
+  background-color: #f01616;
+  margin: auto;
 
   animation: pulsate 1500ms infinite;
 }
@@ -59,7 +60,6 @@ section {
 
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   border-radius: 10px;
-  margin: 25px 0 25px 0;
-  max-width: 550px;
+
   margin: 30px auto;
 }
