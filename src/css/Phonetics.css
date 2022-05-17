@@ -1,10 +1,14 @@
 .Phonetic .AudioPlayer {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
+
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
 }
-.text {
-  padding-top: 7px;
-  padding-bottom: 7px;
+.Phonetic .text {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: x-large;
+  color: rgb(72, 119, 147);
+  font-weight: 400;
 }

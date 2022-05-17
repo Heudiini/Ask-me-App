@@ -7,9 +7,7 @@ import "animate.css";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div>
-        <h2>{props.results.word}</h2>
-
+      <div className="container">
         {props.results.phonetics.map(function (phonetics, index) {
           return (
             <div className=" audiosec">
@@ -20,14 +18,15 @@ export default function Results(props) {
             </div>
           );
         })}
-
-        {props.results.meanings.map(function (meaning, index1) {
-          return (
-            <section key={index1}>
-              <Meaning meaning={meaning} />
-            </section>
-          );
-        })}
+        <div>
+          {props.results.meanings.map(function (meaning, index1) {
+            return (
+              <section key={index1}>
+                <Meaning meaning={meaning} />
+              </section>
+            );
+          })}
+        </div>
       </div>
     );
   } else {

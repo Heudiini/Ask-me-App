@@ -15,7 +15,7 @@ function App() {
               <small> by Heudiini©</small>
             </p>
           </div>
-          <div>
+          <div className="row">
             {" "}
             <Dictionary defaultKeyword="sea" />
           </div>

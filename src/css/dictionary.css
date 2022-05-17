@@ -53,9 +53,9 @@ form {
 section {
   background-color: rgba(244, 247, 248, 0.993);
   padding: 10px;
-
+  min-width: 300px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   border-radius: 10px;
 
-  margin: 20px auto;
+  margin: 10px auto;
 }

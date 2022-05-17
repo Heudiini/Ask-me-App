@@ -57,11 +57,12 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
             />{" "}
-            Suggested words: sea, food, island, dogs..
+            Suggested words: food, plant, decor, vacation..
           </form>{" "}
           <p>Results searched for word:</p>
+          <h2>{results.word}</h2>{" "}
         </div>
-        <div className="row sm-12">
+        <div className="row">
           <div className="col sm-6">
             {" "}
             <Results results={results} />
