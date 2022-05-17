@@ -3,16 +3,16 @@ footer {
 
   text-align: center;
   margin: 0 !important;
-  color: rgb(248, 242, 242);
+  color: rgb(29, 28, 28);
   font-size: small;
-  background-color: #424242;
+
   width: 100% !important;
 }
 .link {
   text-align: left;
   font-size: small;
 
-  color: rgb(248, 238, 238);
+  color: rgb(129, 125, 125);
   text-decoration: none;
 }
 .App-logo {

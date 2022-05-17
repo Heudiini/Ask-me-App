@@ -14,7 +14,7 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
-    console.log(response.data);
+    //console.log(response.data);
     setPhotos(response.data.photos);
   }
 
@@ -55,7 +55,7 @@ export default function Dictionary(props) {
             onChange={handleKeywordChange}
             defaultValue={props.defaultKeyword}
           />{" "}
-          Suggested words: earth, food, dogs, succulents, tenerife,
+          Suggested words: sea, food, island, dogs..
         </form>{" "}
         <p>Results searched for word:</p>
         <div className="col sm-6">
