@@ -2,6 +2,7 @@
   text-transform: capitalize;
 }
 .exampleResp {
-  color: rgb(211, 11, 11);
+  color: rgb(133, 182, 191);
   padding: 8px;
+  font-weight: 500;
 }

@@ -17,7 +17,7 @@ function App() {
           </div>
           <div>
             {" "}
-            <Dictionary defaultKeyword="paragraph" />
+            <Dictionary defaultKeyword="plants" />
           </div>
         </header>
       </div>{" "}
