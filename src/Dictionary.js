@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import "./css/dictionary.css";
-import winnie from "./winnie.gif";
+//import winnie from "./winnie.gif";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -56,9 +56,6 @@ export default function Dictionary(props) {
           />{" "}
           Suggested words: earth, food, dogs, succulents, tenerife,
         </form>{" "}
-        <div>
-          <img src={winnie} width="60%" alt="loading..." />
-        </div>
         <div className="col sm-6">
           {" "}
           <Results results={results} />
