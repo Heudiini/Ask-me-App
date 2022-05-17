@@ -1,8 +1,18 @@
-.meanings {
+.meaning {
   text-transform: capitalize;
+
+  text-align: left;
+  padding: 20px;
 }
 .exampleResp {
   color: rgb(133, 182, 191);
   padding: 8px;
   font-weight: 500;
+}
+.h3 {
+  text-align: center;
+  color: rgb(133, 182, 191);
+  font-family: caveat;
+  font-size: 2rem;
+  font-weight: 700;
 }

@@ -16,14 +16,7 @@ export default function Footer() {
         >
           github opensource code.
         </a>{" "}
-      </p>
-      <p className="col md-3">
         <img src={logo} className="App-logo" alt="logo" />
-      </p>
-      <p className="col md-3 ">
-        <a className="link" href="https://giphy.com/gifs/winnie-the-pooh-126BrhLh4YgwkE">
-          Gif from GIPHY
-        </a>
       </p>
     </footer>
   );

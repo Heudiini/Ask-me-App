@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
+  // console.log(props.photos);
   if (props.photos) {
     return (
       <section className="photos">
