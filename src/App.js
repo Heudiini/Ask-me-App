@@ -17,7 +17,7 @@ function App() {
           </div>
           <div>
             {" "}
-            <Dictionary defaultKeyword="moon" />
+            <Dictionary defaultKeyword="sea" />
           </div>
         </header>
       </div>{" "}

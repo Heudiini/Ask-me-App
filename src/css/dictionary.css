@@ -15,7 +15,7 @@ form {
   border-radius: 15px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   margin-bottom: 20px;
-  font-size: small;
+  font-size: normal;
   font-family: monospace;
   text-align: center;
 }
@@ -45,7 +45,7 @@ form {
   border: 1px solid lightgray;
   margin-bottom: 20px;
   border-radius: 5px;
-  font-size: small;
+  font-size: normal;
 
   color: rgb(143, 137, 137);
 }
