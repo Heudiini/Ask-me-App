@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  max-width: 1200px;
-  margin: 0 auto !important;
+
+  margin: 0 auto;
+  /*!important;*/
 
   color: #424242;
 }

@@ -1,3 +1,6 @@
 img {
   padding: 3px;
 }
+.photoDiv {
+  min-width: 200px;
+}

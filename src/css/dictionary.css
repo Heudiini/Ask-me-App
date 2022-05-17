@@ -1,7 +1,8 @@
 .dictionary {
   margin: auto;
-
-  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1800px;
   color: rgb(102, 102, 102);
 }
 

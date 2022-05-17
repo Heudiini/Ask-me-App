@@ -11,6 +11,7 @@ export default function Dictionary(props) {
   let [photos, setPhotos] = useState(null);
 
   function handleDictionResponse(response) {
+    //console.log(response.data);
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
@@ -47,21 +48,28 @@ export default function Dictionary(props) {
   //the search needed new state "loaded" that was my bug, remember
   if (loaded) {
     return (
-      <div className="row dictionary">
-        <form className="form" onSubmit={handleSubmit}>
-          <input
-            className="input"
-            type="search"
-            onChange={handleKeywordChange}
-            defaultValue={props.defaultKeyword}
-          />{" "}
-          Suggested words: sea, food, island, dogs..
-        </form>{" "}
-        <p>Results searched for word:</p>
-        <div className="col sm-6">
-          {" "}
-          <Results results={results} />
-          <Photos photos={photos} />
+      <div className="container-fluid">
+        <div className="row  dictionary">
+          <form className="form" onSubmit={handleSubmit}>
+            <input
+              className="input"
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue={props.defaultKeyword}
+            />{" "}
+            Suggested words: sea, food, island, dogs..
+          </form>{" "}
+          <p>Results searched for word:</p>
+        </div>
+        <div className="row sm-12">
+          <div className="col sm-6">
+            {" "}
+            <Results results={results} />
+          </div>
+          <div className="col sm-6 ">
+            {" "}
+            <Photos photos={photos} />
+          </div>
         </div>
       </div>
     );
