@@ -11,7 +11,7 @@ form {
   color: white;
   padding: 15px;
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
   border: 1px solid lightgray;
   border-radius: 15px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
@@ -35,7 +35,7 @@ form {
   color: rgb(143, 137, 137);
 }
 .formSection {
-  padding: 18px 25px;
+  padding: 0 25px;
   min-width: 280px;
 
   margin: 5px auto;
