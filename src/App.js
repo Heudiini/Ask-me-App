@@ -3,8 +3,6 @@ import Dictionary from "./Dictionary";
 import { useState, useEffect } from "react";
 import BeatLoader from "react-spinners/BeatLoader";
 
-//import Footer from "./Footer";
-
 function App() {
   const [loading, setloading] = useState(false);
   useEffect(() => {
