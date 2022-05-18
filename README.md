@@ -9,19 +9,14 @@ https://dictionary-heudiini.netlify.app/
 
 Online dictionary and image search by user-entered word.
 This React App is part of my final work in SheCodes React sertification, and is made in practise purpose.
-It gave me good groundings of React functionalities, such as props, states etc. Its connected in 
+It gave me good groundings of React functionalities, such as props, states etc. Its connected in:
 
-
-
-## Getting Started
-
-### 
-
-* axios
-* react
-
-* axios
-* ex. Windows 10
+* Dictionary api  https://dictionaryapi.dev/e
+* Pexels image api https://www.pexels.com/api/
+ 
+Dictionary api is still unfortunately little
+inadequate compared in pexels image api, so often we get no results but images.
+I still need to improve this. 
 
 
 ```
