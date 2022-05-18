@@ -7,13 +7,13 @@ import "animate.css";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <h2>{props.results.word}</h2>
         {props.results.phonetics.map(function (phonetics, index) {
           return (
             <div className=" audiosec">
               {" "}
-              <div key={index}>
+              <div className="container-fluid" key={index}>
                 <Phonetic phonetic={phonetics} />
               </div>
             </div>
@@ -22,7 +22,7 @@ export default function Results(props) {
         <div>
           {props.results.meanings.map(function (meaning, index1) {
             return (
-              <section key={index1}>
+              <section className="container-fluid" key={index1}>
                 <Meaning meaning={meaning} />
               </section>
             );

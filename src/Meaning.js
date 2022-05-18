@@ -11,7 +11,7 @@ export default function Meaning(props) {
         // console.log(props.meaning.synonyms);
         if (definition) {
           return (
-            <div key={index}>
+            <div className="container-fluid" key={index}>
               <div>
                 Definition:
                 <br />

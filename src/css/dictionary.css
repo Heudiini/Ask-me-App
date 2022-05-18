@@ -20,23 +20,7 @@ form {
   font-family: monospace;
   text-align: center;
 }
-/*
-.live {
-  border-radius: 50%;
-  background-color: #f01616;
 
-  animation: pulsate 1500ms infinite;
-}
-
-@keyframes pulsate {
-  0% {
-    box-shadow: #b796fa 0 0 0 0;
-  }
-
-  75% {
-    box-shadow: #f016f000 0 0 0 15px;
-  }
-}*/
 .dictionary .input {
   font-family: monospace;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
@@ -52,10 +36,10 @@ form {
 }
 section {
   background-color: rgba(244, 247, 248, 0.993);
-  padding: 10px;
-  min-width: 300px;
+  padding: 8px;
+  min-width: 280px;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
   border-radius: 10px;
 
-  margin: 10px auto;
+  margin: 5px auto;
 }

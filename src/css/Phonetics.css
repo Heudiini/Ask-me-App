@@ -1,9 +1,6 @@
 .Phonetic .AudioPlayer {
-  display: block;
   margin: 0 auto;
   width: 50%;
-
-  box-shadow: 0 10px 10px rgb(0 0 0 /10%);
 }
 .Phonetic .text {
   padding-top: 12px;
