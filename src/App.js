@@ -12,12 +12,12 @@ function App() {
           <div className="mainTitle">
             <h1>Ask me App</h1>
             <p className="detail">
-              <small> by Heudiini©</small>
+              <small> by Heudiini ©</small>
             </p>
           </div>
           <div className="row">
             {" "}
-            <Dictionary defaultKeyword="sea" />
+            <Dictionary defaultKeyword="decor" />
           </div>
         </header>
       </div>{" "}

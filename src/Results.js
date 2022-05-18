@@ -5,6 +5,8 @@ import Phonetic from "./Phonetic";
 import "animate.css";
 
 export default function Results(props) {
+  //console.log(props.results);
+
   if (props.results) {
     return (
       <div className="container-fluid">

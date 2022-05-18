@@ -7,6 +7,7 @@ export default function Photos(props) {
     return (
       <div className="photos">
         <div className="row">
+          <p>Photos for word:</p>
           {props.photos.map(function (photo, index) {
             return (
               <div className=" col-6" key={index}>

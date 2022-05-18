@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Results from "./Results";
 import "./css/dictionary.css";
@@ -15,7 +15,7 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
-    //console.log(response.data.photos);
+    //console.log(response.data);
     setPhotos(response.data.photos);
   }
 
@@ -51,15 +51,15 @@ export default function Dictionary(props) {
       <div className="container-fluid">
         <div className="row  dictionary">
           <form className="form" onSubmit={handleSubmit}>
+            <small> Type something and press enter!</small>
             <input
               className="input"
               type="search"
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
             />{" "}
-            Suggested words: food, plant, decor, vacation..
+            <small>Suggested words: food, plant, decor, vacation..</small>
           </form>{" "}
-          <p>Photos searched for word:</p>
         </div>
         <div className="row">
           <div className="col sm-6">
