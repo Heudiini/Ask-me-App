@@ -56,6 +56,7 @@ export default function Dictionary(props) {
               <input
                 className="col input"
                 type="search"
+                autoFocus={false}
                 onChange={handleKeywordChange}
                 defaultValue={props.defaultKeyword}
               />{" "}

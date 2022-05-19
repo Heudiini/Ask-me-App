@@ -55,7 +55,7 @@
 .searchBtn:hover {
   background-color: rgb(168, 222, 249);
   color: black;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 section {
   background-color: rgba(244, 247, 248, 0.993);
