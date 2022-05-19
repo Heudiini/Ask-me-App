@@ -5,9 +5,10 @@ import "./css/Footer.css";
 export default function Footer() {
   return (
     <footer className="row">
+      <hr></hr>
       <p className="col md-3 ">
         {" "}
-        © 2022{" "}
+        © 2022 Heidi Mörsky{" "}
         <a
           className=" link"
           href="https://github.com/Heudiini/dictionary-app"
@@ -18,7 +19,7 @@ export default function Footer() {
         </a>{" "}
         <img src={logo} className="App-logo" alt="logo" />
       </p>
-      <p className="col md-3"> Gif :kitappinarim.tumblr.com</p>
+      <p className="col md-3"> Gif kitappinarim.com</p>
     </footer>
   );
 }
