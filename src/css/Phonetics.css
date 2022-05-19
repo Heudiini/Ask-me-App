@@ -1,10 +1,8 @@
 .Phonetic .AudioPlayer {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 }
 .Phonetic .text {
-  padding-top: 12px;
-  padding-bottom: 12px;
   font-size: x-large;
   color: rgb(72, 119, 147);
   font-weight: 400;
