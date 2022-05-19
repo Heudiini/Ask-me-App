@@ -18,6 +18,7 @@ export default function Footer() {
         </a>{" "}
         <img src={logo} className="App-logo" alt="logo" />
       </p>
+      <p className="col md-3"> Gif :kitappinarim.tumblr.com</p>
     </footer>
   );
 }

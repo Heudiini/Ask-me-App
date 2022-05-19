@@ -4,6 +4,7 @@ import Results from "./Results";
 import "./css/dictionary.css";
 import Photos from "./Photos";
 import Footer from "./Footer";
+import reading from "./reading.gif";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -51,8 +52,9 @@ export default function Dictionary(props) {
     return (
       <div className="container-fluid">
         <div className=" dictionary">
-          <div className="formSection">
-            <form className="row form" onSubmit={handleSubmit}>
+          <div className="row formSection">
+            <form className="col sm-6 form" onSubmit={handleSubmit}>
+              <p>Suggested words: food, plant, vacation..</p>
               <input
                 className="col input"
                 type="search"
@@ -60,14 +62,27 @@ export default function Dictionary(props) {
                 onChange={handleKeywordChange}
                 defaultValue={props.defaultKeyword}
               />{" "}
-              <span className="col ">
-                <input type="submit" value="Search" className="searchBtn" />
+              <span className="col sm-6">
+                {" "}
+                <input type="submit" value="Search" className=" searchBtn" />
               </span>
-              <small>Suggested words: food, plant, vacation..</small>
+              <br />
             </form>{" "}
+            <container className="col sm-6 container-fluid">
+              <img
+                src={reading}
+                style={{
+                  width: "300px",
+                  height: "400px",
+                }}
+                className=" readingGif"
+                alt="reading..."
+              />
+            </container>
           </div>
-        </div>
+        </div>{" "}
         <div className="row">
+          {" "}
           <div className="col sm-6">
             {" "}
             <Results results={results} />

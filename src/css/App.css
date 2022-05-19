@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-  padding: 40px 0 0 0;
-  font-size: 4rem;
+  margin: 30px;
+  font-size: 5rem;
   font-family: caveat;
-  line-height: 22px;
+  line-height: 0.7;
 }
