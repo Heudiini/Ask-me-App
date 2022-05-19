@@ -50,17 +50,19 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="container-fluid">
-        <div className="row  dictionary">
+        <div className=" dictionary">
           <div className="formSection">
-            <form className="form" onSubmit={handleSubmit}>
-              <small> Type something and press enter!</small>
+            <form className="row form" onSubmit={handleSubmit}>
               <input
-                className="input"
+                className="col input"
                 type="search"
                 onChange={handleKeywordChange}
                 defaultValue={props.defaultKeyword}
               />{" "}
-              <small>Suggested words: food, plant, decor, vacation..</small>
+              <span className="col ">
+                <input type="submit" value="Search" className="searchBtn" />
+              </span>
+              <small>Suggested words: food, plant, vacation..</small>
             </form>{" "}
           </div>
         </div>
