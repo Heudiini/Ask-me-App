@@ -16,5 +16,5 @@ inadequate compared in pexels image api, so often we get no results but images.
 I still need to improve this.
 
 ```
-basic npm commands, nothing special with this
+
 ```
