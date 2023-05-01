@@ -16,6 +16,7 @@ export default function Dictionary(props) {
     //console.log(response.data);
     setResults(response.data[0]);
   }
+
   function handlePexelsResponse(response) {
     console.log(response.data);
     setPhotos(response.data.photos);
@@ -34,8 +35,9 @@ export default function Dictionary(props) {
         setResults(null);
       });
 
-    let pexelsApiKey = `563492ad6f91700001000001ab652dccbab04ad7867c7555658ee3a7`;
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
+    let pexelsApiKey = process.env.REACT_APP_PEXELS_API_KEY;
+    //let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
+    let pexelsApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${pexelsApiKey}&per_page=4`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
 
     axios
@@ -60,6 +62,7 @@ export default function Dictionary(props) {
     setLoaded(true);
     search();
   }
+
   //the search needed new state "loaded" that was my bug, remember
   if (loaded) {
     return (
@@ -98,7 +101,7 @@ export default function Dictionary(props) {
           {" "}
           <div className="col sm-6">
             {" "}
-            <Results results={results} />
+            <Results key={keyword} results={results} />
           </div>
           <div className="col sm-6 ">
             {" "}

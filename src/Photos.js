@@ -6,13 +6,16 @@ export default function Photos(props) {
   if (props.photos) {
     return (
       <div className="photos">
-        <div className="row ">
+        <div className="row">
           {props.photos.map(function (photo, index) {
             return (
-              <div className=" col-6" key={index}>
-                <a href={photo.src.original} rel="noopener">
-                  <img src={photo.src.medium} alt="result of search" className="img-fluid" />
-                </a>
+              <div className="col-6 col-md-4 col-lg-3" key={index}>
+                <img
+                  src={photo.src.original}
+                  alt="result of search"
+                  className="img-fluid"
+                  onClick={() => window.open(photo.src.original)}
+                />
               </div>
             );
           })}
