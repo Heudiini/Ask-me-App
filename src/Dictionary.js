@@ -68,7 +68,7 @@ export default function Dictionary(props) {
               </span>
               <br />
             </form>{" "}
-            <container className="col sm-6 container-fluid">
+            <div className="col sm-6 container-fluid">
               <img
                 src={reading}
                 style={{
@@ -78,7 +78,7 @@ export default function Dictionary(props) {
                 className=" readingGif"
                 alt="reading..."
               />
-            </container>
+            </div>
           </div>
         </div>{" "}
         <div className="row">
