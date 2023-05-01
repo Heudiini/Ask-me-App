@@ -17,21 +17,34 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
-    //console.log(response.data);
+    console.log(response.data);
     setPhotos(response.data.photos);
   }
 
   function search() {
-    // documentation: https://dictionaryapi.dev/e
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleDictionResponse);
-    // for photos in pexel
+    axios
+      .get(apiUrl)
+      .then(handleDictionResponse)
+      .catch((error) => {
+        console.log(
+          "An error occurred while fetching dictionary data: ",
+          error
+        );
+        setResults(null);
+      });
 
     let pexelsApiKey = `563492ad6f91700001000001ab652dccbab04ad7867c7555658ee3a7`;
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
-
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
-    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
+
+    axios
+      .get(pexelsApiUrl, { headers: headers })
+      .then(handlePexelsResponse)
+      .catch((error) => {
+        console.log("An error occurred while fetching photos data: ", error);
+        setPhotos(null);
+      });
   }
 
   function handleSubmit(event) {
