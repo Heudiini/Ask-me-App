@@ -6,3 +6,8 @@
   min-width: 270px;
   margin-top: 150px;
 }
+.large-photo {
+  border: solid 5px red;
+  min-width: 300px; /* Set the minimum width for larger screens */
+  min-height: 400px; /* Set the minimum height for larger screens */
+}
